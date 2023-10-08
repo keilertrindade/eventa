@@ -1,0 +1,11 @@
+
+
+    On remote repository delete the "gh-pages" branch.
+
+    In you local repository run this command: npm run build
+
+    git add dist -f
+
+    git commit -m [your commit message here]
+
+    git subtree push --prefix dist origin gh-pages
